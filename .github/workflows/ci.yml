@@ -30,6 +30,8 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Build storybook
+        run: run: pnpm build-storybook --quiet --loglevel error
       - name: Run screenshot
         run: pnpm screenshot
       - name: Run reg actions
