@@ -1,0 +1,40 @@
+{
+  "name": "ts-reg-actions",
+  "version": "1.0.0",
+  "description": "Playground for reg-actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "screenshot": "storycap --serverCmd 'storybook dev -p 6006 --ci' --viewportDelay 10 http://localhost:6006 -i '**/Regression'",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "storybook",
+    "reg-actions"
+  ],
+  "author": "Shinya Ohyanagi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.7",
+    "npm": "We use pnpm",
+    "pnpm": ">=8.7.0",
+    "yarn": "We use pnpm"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/react": "^7.5.3",
+    "@storybook/react-vite": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "serve": "14.2.1",
+    "storybook": "^7.5.3",
+    "storycap": "4.2.0",
+    "typescript": "5.3.2"
+  }
+}
