@@ -33,7 +33,7 @@ jobs:
       - name: Build storybook
         run: run: pnpm build-storybook --quiet --loglevel error
       - name: Run screenshot
-        run: pnpm screenshot
+        run: pnpm screenshot:ci
       - name: Run reg actions
         uses: reg-viz/reg-actions@v2
         with:
