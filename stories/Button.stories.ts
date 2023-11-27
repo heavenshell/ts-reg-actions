@@ -8,7 +8,6 @@ const meta = {
   parameters: {
     layout: 'centered',
     screenshot: {
-      waitFor: 'myWait',
       captureBeyondViewport: false,
       viewport: {
         width: 400,
@@ -26,9 +25,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Regression: Story = {
   args: {
-    primary: true,
-    label: 'Regression',
-    size: 'large',
+    label: 'Button',
+    size: 'small',
   },
 };
 
