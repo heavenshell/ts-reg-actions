@@ -26,9 +26,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Regression: Story = {
   args: {
-    primary: true,
-    label: 'Regression',
-    size: 'large',
+    label: 'Button',
+    size: 'small',
   },
 };
 
