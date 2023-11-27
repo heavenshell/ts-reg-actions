@@ -8,7 +8,6 @@ const meta = {
   parameters: {
     layout: 'centered',
     screenshot: {
-      waitFor: 'myWait',
       captureBeyondViewport: false,
       viewport: {
         width: 400,
